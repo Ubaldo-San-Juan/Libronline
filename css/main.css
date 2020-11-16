@@ -1,3 +1,21 @@
+/* Se importa una fuente local */
+@font-face{
+  font-family: Pangolin;
+  src: local("Pangolin Regular"),
+      local("Pangolin-Regular"),
+      url(../fonts/Pangolin-Regular.ttf);
+}
+
+h1.brandingTitle{
+  font-family: Pangolin;
+  font-size: 25pt;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin-left: 0.5em;
+  color: white;
+}
+
 .navbar{
   box-shadow: 2px 2px 5px #000;
 }
@@ -5,3 +23,4 @@
 .navbar .nav-item .nav-link{
   color: #fff;
 }
+
