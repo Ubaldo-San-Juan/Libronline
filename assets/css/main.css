@@ -6,6 +6,14 @@
       url(../fonts/Pangolin-Regular.ttf);
 }
 
+img.imgLogo{
+  width: 15%;
+}
+
+img.userPFPLarge{
+  width: 10em;
+}
+
 h1.brandingTitle{
   font-family: Pangolin;
   font-size: 25pt;
@@ -23,4 +31,3 @@ h1.brandingTitle{
 .navbar .nav-item .nav-link{
   color: #fff;
 }
-

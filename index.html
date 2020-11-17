@@ -37,7 +37,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="assets/img/logo.png" alt="Logo" style="width: 15%">
+          <img class="imgLogo" src="assets/img/logo.png" alt="Logo">
           <h1 class="brandingTitle">Libronline</h1>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,15 +64,35 @@
 
     <!--Header-->
     <header class="main-header">
-      <div class="background-overlay text-dark py-5">
+      <div class="background-overlay text-dark py-4">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 text-center">
-              <h1>This is a tittle or a phrase related to the product</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti illo nobis eligendi eos ad, repellendus assumenda, ratione dignissimos nisi similique, eaque iusto quos officia animi? Minima doloremque amet voluptate.</p>
-              <a href="https://www.facebook.com" class="btn btn-outline-secondary">
-                Leer mas
-              </a>
+            <div class="col-md-12 text-center align-content-center">
+              <h1>Iniciar sesión</h1>
+              <img class="userPFPLarge rounded-circle" src="assets/img/userBlank.png">
+              <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti illo nobis eligendi eos ad, repellendus assumenda, ratione dignissimos nisi similique, eaque iusto quos officia animi? Minima doloremque amet voluptate.</p>-->
+              <form class="col-lg-8">
+                <div class="form-group text-left">
+                  <label for="inputEmail">Correo electrónico</label>
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="alguien@mail.com">
+                </div>
+                <div class="form-group text-left">
+                  <label for="inputPassword">Contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+              </form>
+              <div class="invitacionRegistro mt-4">
+                <p>
+                  ¿No tienes una cuenta?
+                </p>
+                <a>
+                  Regístrate aquí
+                </a>
+              </div>
+              <!--<a href="#" class="btn btn-outline-secondary">
+                Iniciar sesión
+              </a>-->
             </div>
           </div>
         </div>
