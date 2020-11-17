@@ -10,14 +10,22 @@ img.imgLogo{
   width: 15%;
 }
 
+div.brandingContainer{
+  height: 100%;
+  margin-left: 0.5em;
+}
+
+.navbar{
+  flex-wrap: inherit;
+}
+
 img.userPFPLarge{
   width: 10em;
 }
 
-
 h1.brandingTitle{
   font-family: Pangolin;
-  font-size: 25pt;
+  /*font-size: 25pt;*/
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 0;

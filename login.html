@@ -34,33 +34,37 @@
 
 <body>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="imgLogo" src="assets/img/logo.png" alt="Logo">
-          <h1 class="brandingTitle">Libronline</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Categorias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inicia sesión</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Registrarse</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <header class="main-header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--<div class="container">-->
+          <a class="navbar-brand" href="#">
+            <div class="brandingContainer">
+              <img class="imgLogo" src="assets/img/logo.png" alt="Logo">
+              <h1 class="brandingTitle">Libronline</h1>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicia sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Registrarse</a>
+              </li>
+            </ul>
+          </div>
+        <!--</div>-->
+      </nav>
+    </header>
 
     <!--Header-->
-    <header class="main-header">
+    <article>
       <div class="background-overlay text-dark py-4">
         <div class="container">
           <div class="row justify-content-center align-content-center">
@@ -94,7 +98,7 @@
           </div>
         </div>
       </div>
-    </header>
+    </article>
 
   <!--Botstrap Javascript opción 1-->
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
