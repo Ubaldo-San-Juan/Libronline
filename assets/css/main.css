@@ -6,13 +6,18 @@
       url(../fonts/Pangolin-Regular.ttf);
 }
 
-img.imgLogo{
+/*img.imgLogo{
   width: 15%;
-}
+}*/
 
 div.brandingContainer{
   height: 100%;
   margin-left: 0.5em;
+}
+
+div.brandingLogo{
+  display: inline-block;
+  width: 3em;
 }
 
 /*.navbar{
@@ -29,7 +34,7 @@ h1.brandingTitle{
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 0;
-  margin-left: 0.5em;
+  margin-left: 0.3em;
   color: white;
 }
 

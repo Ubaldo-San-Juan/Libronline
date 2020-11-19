@@ -32,22 +32,26 @@
 -->
 </head>
 
-<body>
     <!--Navigation-->
     <header class="main-header">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">
           <div class="brandingContainer">
-            <img class="imgLogo" src="assets/img/logo.png" alt="Logo">
-            <h1 class="brandingTitle">Libronline</h1>
+            <div class="brandingLogo">
+              <img class="img-fluid" src="assets/img/logo.png" alt="Logo">
+            </div>
+            <h1 class="brandingTitle">
+              <strong>Libronline</strong>
+            </h1>
           </div>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir menú">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item mb-sm-2 mb-md-0">
               <a class="nav-link btn btn-outline-secondary mr-lg-3" href="#">Categorias</a>
             </li>
             <li class="nav-item">
@@ -60,19 +64,19 @@
         </div>
       </nav>
     </header>
-
-    <!--Header-->
-    <article>
-      <div class="background-overlay text-dark py-4">
-        <div class="container">
-          <div class="row justify-content-center align-content-center">
-            <div class="col-md-7 text-center">
-              <h1>Test</h1>
-            </div>
+    <!--Main content-->
+    <div class="mainContent col-lg-8 mt-5 pt-5 align-content-center justify-content-center">
+      <article class="post bg-danger">
+        <div class="container bg-info">
+          <div class="row justify-content-center align-content-center bg-primary">
+            <h1>Este es el índice 👍</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, earum. Excepturi facilis quas consequuntur aliquid nihil et iusto a consequatur commodi consectetur, nemo quisquam quia libero dolorem necessitatibus animi ab?
+            </p>
           </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </div>
 
   <!--Bootstrap Javascript opción 1-->
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
