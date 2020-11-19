@@ -17,7 +17,7 @@ div.brandingContainer{
 
 div.brandingLogo{
   display: inline-block;
-  width: 3em;
+  width: 2em;
 }
 
 /*.navbar{
@@ -38,10 +38,56 @@ h1.brandingTitle{
   color: white;
 }
 
-.navbar{
+.navbar, .post, #sidebar{
   box-shadow: 2px 2px 5px #000;
 }
+#sidebar{
+  background-color: #d3d7ff;
+}
+#sidebar ul li{
+  background-color: #f0f0f0;
+}
+
 
 .navbar .nav-item .nav-link{
   color: #fff;
+}
+
+body{
+  background-color: #edd9ff;
+}
+.post{
+  background-color: #f0f0f0;
+}
+
+a.postTitle{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  padding-left: 0;
+}
+a.postTitle h1{
+  margin-bottom: 0;
+}
+a.postTitle:hover{
+  color: #444444;
+}
+article.post, aside#sidebar{
+  border: 1px solid black;
+  border-radius: 1em;
+}
+.imgContainer{
+  margin-left: auto;
+  margin-right: auto;
+}
+.postDate{
+  vertical-align: middle;
+  font-size: larger;
+  margin: 0 0 0 0;
+}
+.postAuthor{
+  padding-top: 0;
+}
+div.postMetadata p, div.postMetadata a{
+  display: inline;
 }
