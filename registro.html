@@ -67,10 +67,13 @@
         <div class="container">
           <div class="row justify-content-center align-content-center">
             <div class="col-md-7 text-center">
-              <h1>Iniciar sesión</h1>
-              <img class="userPFPLarge rounded-circle" src="assets/img/userBlank.png">
+              <h1>Regístrate</h1>
               <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deleniti illo nobis eligendi eos ad, repellendus assumenda, ratione dignissimos nisi similique, eaque iusto quos officia animi? Minima doloremque amet voluptate.</p>-->
               <form class="col-12">
+                <div class="form-group text-left">
+                  <label for="inputEmail">Nombre completo</label>
+                  <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Juan Pérez">
+                </div>
                 <div class="form-group text-left">
                   <label for="inputEmail">Correo electrónico</label>
                   <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="alguien@mail.com">
@@ -79,16 +82,12 @@
                   <label for="inputPassword">Contraseña</label>
                   <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
                 </div>
-                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                <div class="form-check mb-3">
+                  <input type="checkbox" class="form-check-input" id="tosAccept">
+                  <label for="tosAccept" class="form-check-label">Acepto los términos y condiciones del sitio</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Regístrate</button>
               </form>
-              <div class="invitacionRegistro mt-4">
-                <p>
-                  ¿No tienes una cuenta?
-                </p>
-                <a href="registro.html">
-                  Regístrate aquí
-                </a>
-              </div>
               <!--<a href="#" class="btn btn-outline-secondary">
                 Iniciar sesión
               </a>-->
