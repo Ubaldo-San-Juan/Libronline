@@ -137,3 +137,24 @@ div.postMetadata p, div.postMetadata a{
 .welcomeTextPic img{
   width: 100%;
 }
+.controlPanelNav a{
+  width: 7rem;
+  height: 2.7em;
+  padding-top: 0.6em;
+}
+.controlPanelTableContainer img{
+  width: 1em;
+}
+.controlPanelNav .btnAdd, .controlPanelNav .btnAdd a:hover, .controlPanelNav .btnAdd a:active{
+  text-decoration: none;
+  color: inherit;
+}
+.btnAdd{
+  margin-top: 0.3rem;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+  border-radius: 0.6em;
+  border: 1px solid black;
+}
