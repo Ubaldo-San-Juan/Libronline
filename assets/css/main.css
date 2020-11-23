@@ -142,7 +142,7 @@ div.postMetadata p, div.postMetadata a{
   height: 2.7em;
   padding-top: 0.6em;
 }
-.controlPanelTableContainer img, .recordAddEditButtons img{
+.controlPanelTableContainer img{
   width: 1em;
 }
 .controlPanelNav .btnAdd, .controlPanelNav .btnAdd a:hover, .controlPanelNav .btnAdd a:active{
