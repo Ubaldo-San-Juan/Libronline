@@ -38,7 +38,7 @@ h1.brandingTitle{
   color: white;
 }
 
-.navbar, .post, #sidebar, .comment, .commentBox, .controlPanelMainButtons{
+.navbar, .post, #sidebar, .comment, .commentBox, .controlPanelMainButtons, .recordAddEditForm{
   box-shadow: 2px 2px 5px #000;
 }
 #sidebar{
@@ -56,7 +56,7 @@ h1.brandingTitle{
 body{
   background-color: #edd9ff;
 }
-.post, .comment, .commentBox{
+.post, .comment, .commentBox, .recordAddEditForm{
   background-color: #f0f0f0;
 }
 
@@ -72,7 +72,7 @@ a.postTitle h1{
 a.postTitle:hover{
   color: #444444;
 }
-article.post, aside#sidebar, .comment, .commentBox, .controlPanelMainButtons{
+article.post, aside#sidebar, .comment, .commentBox, .controlPanelMainButtons, .recordAddEditForm{
   border: 1px solid black;
   border-radius: 1em;
 }
@@ -108,7 +108,7 @@ div.postMetadata p, div.postMetadata a{
   width: 5em;
 }
 .commentInfo{
- vertical-align: middle;
+  vertical-align: middle;
 }
 .commentForm button{
   float:right;
@@ -142,7 +142,7 @@ div.postMetadata p, div.postMetadata a{
   height: 2.7em;
   padding-top: 0.6em;
 }
-.controlPanelTableContainer img{
+.controlPanelTableContainer img, .recordAddEditButtons img{
   width: 1em;
 }
 .controlPanelNav .btnAdd, .controlPanelNav .btnAdd a:hover, .controlPanelNav .btnAdd a:active{
@@ -157,4 +157,16 @@ div.postMetadata p, div.postMetadata a{
   padding-top: 0.4em;
   border-radius: 0.6em;
   border: 1px solid black;
+}
+.pageIdentifier{
+  vertical-align: middle;
+}
+.pageIdentifier h2{
+  margin-bottom: 0;
+}
+.controlPanelGrid{
+  padding-bottom: 1em;
+}
+.recordAddEditForm button{
+  width: 6em;
 }
