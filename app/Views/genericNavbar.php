@@ -4,10 +4,10 @@
             <a class="nav-link btn btn-outline-secondary mr-lg-3" href="#">Categorias</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link btn btn-outline-info mr-lg-3" href="login.html">Inicia sesión</a>
+            <a class="nav-link btn btn-outline-info mr-lg-3" href="<?php echo base_url(); ?>/index.php/MyController/login">Inicia sesión</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link btn btn-info mr-lg-2" href="registro.html">Registrarse</a>
+            <a class="nav-link btn btn-info mr-lg-2" href="<?php echo base_url(); ?>/index.php/MyController/register">Registrarse</a>
         </li>
     </ul>
 </div>
