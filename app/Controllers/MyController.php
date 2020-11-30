@@ -19,7 +19,7 @@ class MyController extends BaseController
 	
 	public function Vaporeon()
 	{
-		return view('genericHeader').view('genericNavbar').view('sidebar').view('mainContent').view('post').view('commentsContainer');
+		return view('genericHeader').view('genericNavbar').view('sidebar').view('mainContent').view('post').view('commentsContainer').view('comentario1').view('comentario2');
 	}
 
 	//--------------------------------------------------------------------
