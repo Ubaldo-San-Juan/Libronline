@@ -17,6 +17,9 @@ class ControlPanel extends BaseController
 		return view('genericHeader').view('controlPanelNavbarCollapse').view('controlPanelContainer').view('postControl').view('importJSBootstrap');
 	}
 
+	public function Category(){
+		return view('genericHeader').view('controlPanelNavbar').view('controlPanelContainer').view('categoryControl').view('importJSBootstrap');
+	}
 	//--------------------------------------------------------------------
 
 }
