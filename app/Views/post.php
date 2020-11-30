@@ -32,7 +32,7 @@
                 <p>
                     Categorías:
                 </p>
-                <a href="controlPanel.html">
+                <a href="<?php echo base_url(); ?>/index.php/ControlPanel">
                     Matemáticas
                 </a>|
                 <a href="#">
