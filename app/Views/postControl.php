@@ -71,7 +71,7 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    <a href="singleArticle.html">
+                                    <a href="<?php echo base_url(); ?>/index.php/MyController/Grumps">
                                         Game Grumps - Rueda de la Fortuna
                                     </a>
                                 </td>
@@ -103,7 +103,7 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    <a href="singleArticle.html">
+                                    <a href="#">
                                         Artículo 3
                                     </a>
                                 </td>
@@ -135,7 +135,7 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    <a href="singleArticle.html">
+                                    <a href="#">
                                         Artículo 4
                                     </a>
                                 </td>
@@ -167,7 +167,7 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    <a href="singleArticle.html">
+                                    <a href="#">
                                         Artículo 5
                                     </a>
                                 </td>
