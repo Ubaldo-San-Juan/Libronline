@@ -2,7 +2,7 @@
     <div class="container col-11 pt-2 pb-1">
         <div class="row">
             <div class="postHeader w-100">
-                <a class="postTitle col-md-10 col-sm-7 pt-2 d-inline-block">
+                <a class="postTitle col-md-10 col-sm-7 pt-2 d-inline-block" href="<?php echo base_url(); ?>/index.php/MyController/Grumps">
                     <h1 class="h2">Game Grumps - Rueda de la Fortuna</h1>
                 </a>
                 <p class="postDate text-right col-sm-2 pt-3 float-right d-none d-md-block">
