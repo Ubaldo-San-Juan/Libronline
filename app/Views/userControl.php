@@ -7,7 +7,7 @@
                         <a class="btn btn-dark shadow" href="<?php echo base_url(); ?>/index.php/ControlPanel/Post">
                             Artículos
                         </a>
-                        <a class="btn btn-dark shadow" href="categoryControl.html">
+                        <a class="btn btn-dark shadow" href="<?php echo base_url(); ?>/index.php/ControlPanel/Category">
                             Categorías
                         </a>
                     </div>

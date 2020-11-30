@@ -1,13 +1,13 @@
 <article class="controlPanelTableContainer col-11">
                 <section class="controlPanelButtons">
                     <div class="controlPanelNav d-none d-lg-inline-block">
-                        <a class="btn btn-dark shadow" href="userControl.html">
+                        <a class="btn btn-dark shadow" href="<?php echo base_url(); ?>/index.php/ControlPanel/User">
                             Usuarios
                         </a>
-                        <a class="btn btn-primary shadow" href="postControl.html">
+                        <a class="btn btn-primary shadow" href="<?php echo base_url(); ?>/index.php/ControlPanel/Post">
                             Artículos
                         </a>
-                        <a class="btn btn-dark shadow" href="categoryControl.html">
+                        <a class="btn btn-dark shadow" href="<?php echo base_url(); ?>/index.php/ControlPanel/Category">
                             Categorías
                         </a>
                     </div>

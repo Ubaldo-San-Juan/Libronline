@@ -28,7 +28,7 @@
                                 Usuarios
                             </p>
                         </a>
-                        <a class="controlPanelButton btn btn-info col-10 mt-2 mb-3 pt-3 pb-3" href="postControl.html">
+                        <a class="controlPanelButton btn btn-info col-10 mt-2 mb-3 pt-3 pb-3" href="<?php echo base_url(); ?>/index.php/ControlPanel/Post">
                             <p>
                                 Artículos
                             </p>

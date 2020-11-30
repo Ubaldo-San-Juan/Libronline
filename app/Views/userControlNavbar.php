@@ -2,17 +2,17 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mb-sm-2 mb-md-0">
                         <div class="d-block d-lg-none">
-                            <a class="nav-link btn btn-primary btn-outline-primary shadow-lg" href="userControl.html">
+                            <a class="nav-link btn btn-primary btn-outline-primary shadow-lg" href="<?php echo base_url(); ?>/index.php/ControlPanel/User">
                                 Usuarios
                             </a>
-                            <a class="nav-link btn btn-dark btn-outline-secondary shadow-lg" href="postControl.html">
+                            <a class="nav-link btn btn-dark btn-outline-secondary shadow-lg" href="<?php echo base_url(); ?>/index.php/ControlPanel/Post">
                                 Artículos
                             </a>
-                            <a class="nav-link btn btn-dark btn-outline-secondary shadow-lg" href="categoryControl.html">
+                            <a class="nav-link btn btn-dark btn-outline-secondary shadow-lg" href="<?php echo base_url(); ?>/index.php/ControlPanel/Category">
                                 Categorías
                             </a>
                         </div>
-                        <a class="nav-link btn btn-outline-secondary mr-lg-3" href="controlPanel.html">
+                        <a class="nav-link btn btn-outline-secondary mr-lg-3" href="<?php echo base_url(); ?>/index.php/ControlPanel">
                             <p class="d-inline-block m-0 pl-2">
                                 Usuario
                             </p>

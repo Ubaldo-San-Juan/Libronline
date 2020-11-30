@@ -2,13 +2,13 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mb-sm-2 mb-md-0">
                         <div class="d-block d-lg-none">
-                            <a class="nav-link btn btn-dark btn-outline-primary shadow-lg" href="<?php echo base_url(); ?>/index.php/ControlPanel/User">
+                            <a class="nav-link btn btn-dark btn-outline-primary shadow-lg" href="userControl.html">
                                 Usuarios
                             </a>
-                            <a class="nav-link btn btn-primary btn-outline-secondary shadow-lg" href="<?php echo base_url(); ?>/index.php/ControlPanel/Post">
+                            <a class="nav-link btn btn-dark btn-outline-secondary shadow-lg" href="postControl.html">
                                 Artículos
                             </a>
-                            <a class="nav-link btn btn-dark btn-outline-secondary shadow-lg" href="<?php echo base_url(); ?>/index.php/ControlPanel/Category">
+                            <a class="nav-link btn btn-primary btn-outline-secondary shadow-lg" href="categoryControl.html">
                                 Categorías
                             </a>
                         </div>
