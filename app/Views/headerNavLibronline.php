@@ -4,7 +4,7 @@
     <a class="navbar-brand" href="index.html">
       <div class="brandingContainer">
         <div class="brandingLogo">
-          <img class="img-fluid" src="assets/img/logo.png" alt="Logo">
+          <img class="img-fluid" src="<?php echo base_url(); ?>/assets/img/logo.png" alt="Logo">
         </div>
         <h1 class="brandingTitle">
           <strong>Libronline</strong>
@@ -21,10 +21,10 @@
           <a class="nav-link btn btn-outline-secondary mr-lg-3" href="#">Categorias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-outline-info mr-lg-3" href="login.html">Inicia sesión</a>
+          <a class="nav-link btn btn-outline-info mr-lg-3" href="<?php echo base_url(); ?>/login">Inicia sesión</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link btn btn-info mr-lg-2" href="registro.html">Registrarse</a>
+          <a class="nav-link btn btn-info mr-lg-2" href="<?php echo base_url(); ?>/register">Registrarse</a>
         </li>
       </ul>
     </div>
