@@ -13,7 +13,7 @@
                     </div>
                     <div class="btnAdd float-right shadow mb-3">
                         <a href="addUser.html">
-                            <img class="img-fluid mr-md-2" src="<?php echo base_url(); ?>/<?php echo base_url(); ?>/assets/img/add.png" alt="+">
+                            <img class="img-fluid mr-md-2" src="<?php echo base_url(); ?>/assets/img/add.png" alt="+">
                             <p class="d-none d-md-inline-block m-0">
                                 Añadir usuario nuevo
                             </p>
@@ -58,7 +58,7 @@
                                 </th>
                                 <th scope="col" class="text-center">
                                     <a href="#">
-                                        <img src="<?php echo base_url(); ?>/<?php echo base_url(); ?>/assets/img/trash.png" alt="Eliminar">
+                                        <img src="<?php echo base_url(); ?>/assets/img/trash.png" alt="Eliminar">
                                     </a>
                                 </th>
                             </tr>
