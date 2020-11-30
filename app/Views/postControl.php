@@ -1,10 +1,10 @@
 <article class="controlPanelTableContainer col-11">
                 <section class="controlPanelButtons">
                     <div class="controlPanelNav d-none d-lg-inline-block">
-                        <a class="btn btn-primary shadow" href="<?php echo base_url(); ?>/index.php/ControlPanel/User">
+                        <a class="btn btn-dark shadow" href="userControl.html">
                             Usuarios
                         </a>
-                        <a class="btn btn-dark shadow" href="<?php echo base_url(); ?>/index.php/ControlPanel/Post">
+                        <a class="btn btn-primary shadow" href="postControl.html">
                             Artículos
                         </a>
                         <a class="btn btn-dark shadow" href="categoryControl.html">
@@ -12,16 +12,16 @@
                         </a>
                     </div>
                     <div class="btnAdd float-right shadow mb-3">
-                        <a href="addUser.html">
+                        <a href="addPost.html">
                             <img class="img-fluid mr-md-2" src="<?php echo base_url(); ?>/assets/img/add.png" alt="+">
                             <p class="d-none d-md-inline-block m-0">
-                                Añadir usuario nuevo
+                                Añadir artículo nuevo
                             </p>
                         </a>
                     </div>
                     <div class="pageIdentifier d-inline-block d-lg-none">
                         <h2>
-                            Usuarios
+                            Artículos
                         </h2>
                     </div>
                 </section>
@@ -32,26 +32,23 @@
                                 <th class="text-center" scope="col">
                                     <input type="checkbox">
                                 </th>
+                                <th scope="col" class="d-none d-lg-table-cell">
+                                    Título del artículo
+                                </th>
+                                <th scope="col" class="d-table-cell d-lg-none">
+                                    Artículo
+                                </th>
                                 <th scope="col">
-                                    ID
-                                </th>
-                                <th scope="col" class="d-none d-lg-table-cell">
-                                    Nombre de usuario
-                                </th>
-                                <th scope="col" class="d-table-cell d-lg-none">
-                                    Usuario
+                                    Autor
                                 </th>
                                 <th class="d-none d-md-table-cell" scope="col">
-                                    Correo Electrónico
+                                    Fecha de publicación
                                 </th>
-                                <th class="d-none d-md-table-cell" scope="col">
-                                    Contraseña
+                                <th scope="col" class="d-none d-md-table-cell">
+                                    Categoría
                                 </th>
-                                <th scope="col" class="d-none d-lg-table-cell">
-                                    Tipo de cuenta
-                                </th>
-                                <th scope="col" class="d-table-cell d-lg-none">
-                                    Tipo
+                                <th scope="col" class="d-none d-md-table-cell">
+                                    Cantidad de comentarios
                                 </th>
                                 <th scope="col" class="text-center">
                                     &nbsp;
@@ -69,19 +66,21 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    1
+                                    <a href="singleArticle.html">
+                                        Información acerca de Vaporeon
+                                    </a>
                                 </td>
                                 <td>
-                                    victor0982
+                                    Juan Pérez
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    contrerasvictor890@gmail.com
+                                    2020-11-19
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    ********
+                                    Matemáticas
                                 </td>
-                                <td>
-                                    Admin
+                                <td class="d-none d-md-table-cell">
+                                    2
                                 </td>
                                 <td class="text-center">
                                     <a href="#">
@@ -99,19 +98,21 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    1
+                                    <a href="singleArticle.html">
+                                        Game Grumps - Rueda de la Fortuna
+                                    </a>
                                 </td>
                                 <td>
-                                    ubaldo69
+                                    Victor Flores
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    ubalditop1892@hotmail.com
+                                    2020-11-19
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    ********
+                                    Cálculo Integral
                                 </td>
-                                <td>
-                                    Admin
+                                <td class="d-none d-md-table-cell">
+                                    0
                                 </td>
                                 <td class="text-center">
                                     <a href="#">
@@ -129,19 +130,21 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    1
+                                    <a href="singleArticle.html">
+                                        Artículo 3
+                                    </a>
                                 </td>
                                 <td>
-                                    rodrigo497
+                                    Autor 3
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    cruzRodrigo@gmail.com
+                                    2020-11-19
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    ********
+                                    Categoría 3
                                 </td>
-                                <td>
-                                    Admin
+                                <td class="d-none d-md-table-cell">
+                                    0
                                 </td>
                                 <td class="text-center">
                                     <a href="#">
@@ -159,19 +162,21 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    1
+                                    <a href="singleArticle.html">
+                                        Artículo 4
+                                    </a>
                                 </td>
                                 <td>
-                                    luisgv735
+                                    Autor 4
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    luisgv735@yahoo.com
+                                    2020-11-19
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    ********
+                                    Categoría 4
                                 </td>
-                                <td>
-                                    Editor
+                                <td class="d-none d-md-table-cell">
+                                    100
                                 </td>
                                 <td class="text-center">
                                     <a href="#">
@@ -189,19 +194,21 @@
                                     <input type="checkbox">
                                 </td>
                                 <td>
-                                    1
+                                    <a href="singleArticle.html">
+                                        Artículo 5
+                                    </a>
                                 </td>
                                 <td>
-                                    gonzalo33
+                                    Autor 5
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    gonzalo33@gmail.com
+                                    2020-11-19
                                 </td>
                                 <td class="d-none d-md-table-cell">
-                                    ********
+                                    Categoría 5
                                 </td>
-                                <td>
-                                    Editor
+                                <td class="d-none d-md-table-cell">
+                                    52
                                 </td>
                                 <td class="text-center">
                                     <a href="#">
