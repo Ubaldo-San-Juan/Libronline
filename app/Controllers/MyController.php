@@ -9,14 +9,34 @@ class MyController extends BaseController
 
 	public function login()
 	{
+		return view('genericHeader').view('genericNavbar').view('loginDB').view('importJSBootstrap');
+	}
+
+	public function respuestaLogin()
+	{
+		return view('genericHeader').view('genericNavbar').view('loginSuccess').view('importJSBootstrap');
+	}
+
+	public function loginStatic()
+	{
 		return view('genericHeader').view('genericNavbar').view('login').view('importJSBootstrap');
 	}
 
 	public function register()
 	{
+		return view('genericHeader').view('genericNavbar').view('registerDB').view('importJSBootstrap');
+	}
+
+	public function RespuestaRegistro()
+	{
+		return view('genericHeader').view('genericNavbar').view('registerSuccess').view('importJSBootstrap');
+	}
+
+	public function registerStatic()
+	{
 		return view('genericHeader').view('genericNavbar').view('register').view('importJSBootstrap');
 	}
-	
+
 	public function Categories()
 	{
 		return view('genericHeader').view('genericNavbar').view('categories').view('importJSBootstrap');
