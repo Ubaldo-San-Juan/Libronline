@@ -4,20 +4,20 @@
             <div class="row justify-content-center align-content-center">
                 <div class="col-md-7 text-center">
                     <h1>Regístrate</h1>
-                    <form method="POST" action="<?php echo base_url(); ?>/index.php/MyController/RespuestaRegistro" class="col-12">
+                    <form method="POST" action="<?php echo base_url(); ?>/index.php/MyController/RespuestaRegistro" role="form" class="col-12">
                         <div class="form-group text-left">
                             <label for="inputEmail">Nombre completo</label>
-                            <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp"
+                            <input type="text" class="form-control" id="inputName" name="inputName" aria-describedby="nameHelp"
                                 placeholder="Juan Pérez">
                         </div>
                         <div class="form-group text-left">
                             <label for="inputEmail">Correo electrónico</label>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                            <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp"
                                 placeholder="alguien@mail.com">
                         </div>
                         <div class="form-group text-left">
                             <label for="inputPassword">Contraseña</label>
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                            <input type="password" class="form-control" id="inputPassword" name="inputPassword" placeholder="Contraseña">
                         </div>
                         <div class="form-check mb-3">
                             <input type="checkbox" class="form-check-input" id="tosAccept">

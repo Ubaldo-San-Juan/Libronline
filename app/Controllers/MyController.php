@@ -1,5 +1,7 @@
 <?php namespace App\Controllers;
 
+use App\Models\Usuarios;
+
 class MyController extends BaseController
 {
 	public function index()
@@ -29,6 +31,23 @@ class MyController extends BaseController
 
 	public function RespuestaRegistro()
 	{
+		$request = \Config\Services::request();
+
+		$nombre = $request->getPost('inputName');
+		$email = $request->getPost('inputEmail');
+		$password = $request->getPost('inputPassword');
+
+		$data = [
+			'id' => NULL,
+    		'nombreUsuario' => $nombre,
+    		'correo'    => $email,
+			'contrasena' => $password,
+			'tipoCuenta' => 'Lector'
+		];
+
+		$varModelo = new Usuarios($db); // Instancia el una variable de tipo MyModel
+		$varModelo->insert($data); //Se manda el arreglo data al método insert a nuestra BD en VarModelox
+
 		return view('genericHeader').view('genericNavbar').view('registerSuccess').view('importJSBootstrap');
 	}
 
