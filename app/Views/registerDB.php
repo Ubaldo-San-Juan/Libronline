@@ -4,11 +4,11 @@
             <div class="row justify-content-center align-content-center">
                 <div class="col-md-7 text-center">
                     <h1>Regístrate</h1>
-                    <form method="POST" action="<?php echo base_url(); ?>/index.php/MyController/RespuestaRegistro" role="form" class="col-12">
+                    <form onsubmit="return register();" method="POST" action="<?php echo base_url(); ?>/index.php/MyController/RespuestaRegistro" role="form" class="col-12">
                         <div class="form-group text-left">
-                            <label for="inputEmail">Nombre completo</label>
+                            <label for="inputEmail">Nombre de usuario</label>
                             <input type="text" class="form-control" id="inputName" name="inputName" aria-describedby="nameHelp"
-                                placeholder="Juan Pérez">
+                                placeholder="JuanPerez88">
                         </div>
                         <div class="form-group text-left">
                             <label for="inputEmail">Correo electrónico</label>

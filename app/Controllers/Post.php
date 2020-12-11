@@ -18,8 +18,6 @@ class Post extends BaseController
     }
     public function Vaporeon()
     {
-        /*$varModelo = new Articulos($db);
-        $varDatos['articulos'] = $varModelo->findAll();*/
         $db = \Config\Database::connect();
 		$builder = $db->table('articulos');
 		$builder->select('*');

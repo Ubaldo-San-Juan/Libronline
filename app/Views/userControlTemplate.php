@@ -1,5 +1,5 @@
                 <section class="controlPanelGrid mt-3">
-                    <table class="table table-striped shadow">
+                    <table class="table table-striped shadow table-responsive-lg">
                         <thead class="thead-light">
                             <tr>
                                 <th class="text-center" scope="col">
@@ -37,30 +37,36 @@
                             </tr>
                         </thead>
                         <tbody>
-                        <?php
-                            $urlbase = base_url();
-                            foreach ($usuarios as $user)
-                            {
-                                echo "<tr>";
-                                echo "<td class=\"text-center\"> <input type=\"checkbox\"> </td>";
-                                echo "<td>".$user['id']."</td>";
-                                echo "<td>".$user['nombreUsuario']."</td>";
-                                echo "<td class=\"d-none d-md-table-cell\">".$user['correo']."</td>";
-                                echo "<td class=\"d-none d-md-table-cell\">".$user['contrasena']."</td>";
-                                echo "<td>".$user['tipoCuenta']."</td>";
-                                echo "<td class=\"text-center\">
+                            <form action="">
+                                <?php
+                                    $urlbase = base_url();
+                                    foreach ($usuarios as $user)
+                                    {
+                                        echo "<tr>";
+                                        echo "<td class=\"text-center\"> <input type=\"checkbox\"> </td>";
+                                        echo "<td>".$user['id']."</td>";
+                                        echo "<td>".$user['nombreUsuario']."</td>";
+                                        echo "<td class=\"d-none d-md-table-cell\">".$user['correo']."</td>";
+                                        echo "<td class=\"d-none d-md-table-cell\">".$user['contrasena']."</td>";
+                                        echo "<td>".$user['tipoCuenta']."</td>";
+                                        echo "<td class=\"text-center\">
+                                        <button>
                                         <a href=\"#\">
-                                            <img src=\"".$urlbase."/assets/img/Edit.png\" alt=\"Editar\">
+                                        <img src=\"".$urlbase."/assets/img/Edit.png\" alt=\"Editar\">
                                         </a>
-                                    </td>";
-                                    echo "<td class=\"text-center\">
+                                        </button>
+                                        </td>";
+                                        echo "<td class=\"text-center\">
+                                        <button>
                                         <a href=\"#\">
-                                            <img src=\"".$urlbase."/assets/img/trash.png\" alt=\"Eliminar\">
+                                        <img src=\"".$urlbase."/assets/img/trash.png\" alt=\"Eliminar\">
                                         </a>
-                                    </td>";
-                                echo "</tr>";
-                            }
-                        ?>
+                                        </button>
+                                        </td>";
+                                        echo "</tr>";
+                                    }
+                                ?>
+                            </form>
                         </tbody>
                     </table>
                 </section>

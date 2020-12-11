@@ -1,5 +1,5 @@
                 <section class="controlPanelGrid mt-3">
-                    <table class="table table-striped shadow">
+                    <table class="table table-striped shadow table-responsive-lg">
                         <thead class="thead-light">
                             <tr>
                                 <th class="text-center" scope="col">
