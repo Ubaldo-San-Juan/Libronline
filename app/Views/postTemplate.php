@@ -28,7 +28,7 @@
                     <?php
                         foreach ($articulos as $post)
                         {
-                            echo $post['autor'];
+                            echo $post['nombreUsuario'];
                         }
                     ?>
                 </p>
@@ -37,20 +37,12 @@
                 <?php
                     foreach ($articulos as $post)
                     {
-                        echo $post['id'];
-                        echo $post['urlArticulo'];
-                        echo $post['titulo'];
-                        echo $post['autor'];
-                        echo $post['fechaPublicacion'];
-                        echo $post['categoria'];
                         echo $post['contenido'];
-                        echo $post['cantidadComentarios'];
-                        echo $post['fueEditado'];
-                        echo $post['fechaEdicion'];
                     }
                 ?>
             </div>
             <div class="postMetadata ml-auto mb-2">
+                <!--
                 <p>
                     Categorías:
                 </p>
@@ -65,9 +57,9 @@
                 </a>|
                 <a href="#">
                     Geometría
-                </a>
+                </a>-->
                 <?php
-                    if($post['fueEditado'] == 0)
+                    if($post['fueEditado'] == true)
                     {
                         foreach ($articulos as $post)
                         {

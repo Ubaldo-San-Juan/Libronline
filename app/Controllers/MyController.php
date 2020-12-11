@@ -1,11 +1,13 @@
 <?php namespace App\Controllers;
 
 use App\Models\Usuarios;
+use App\Models\Articulos;
 
 class MyController extends BaseController
 {
 	public function index()
 	{
+
 		return view('genericHeader').view('genericNavbar').view('sidebar').view('mainContent').view('post').view('post2').view('importJSBootstrap');
 	}
 
